@@ -1,0 +1,48 @@
+{
+  "name": "@react-components/ui",
+  "version": "1.0.0",
+  "description": "React components library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "styleguidist server",
+    "pre-build": "rm -rf dist ",
+    "build": "npm run pre-build && tsc -p . && cp package.json dist/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresDevelop/react-components-guide.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [
+    "React",
+    "Javascipt",
+    "Material",
+    "UI",
+    "Typescript",
+    "Styleguidist"
+  ],
+  "author": "Yebrail Andres Pacheco Jaime <yebrail_andrs@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresDevelop/react-components-guide/issues"
+  },
+  "homepage": "https://github.com/AndresDevelop/react-components-guide#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "react-docgen-typescript": "^1.20.1",
+    "react-styleguidist": "^11.0.8",
+    "webpack": "^4.44.1"
+  }
+}
