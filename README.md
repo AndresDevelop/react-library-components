@@ -9,3 +9,8 @@ $ npm login --registry=https://npm.pkg.github.com
 > Email: PUBLIC-EMAIL-ADDRESS
 
 ```
+
+```
+npm run i (install dependecies)
+npm run start (start library)
+```
