@@ -14,3 +14,5 @@ $ npm login --registry=https://npm.pkg.github.com
 npm  i (install dependecies)
 npm run start (start library)
 ```
+
+![alt text](./assets/react-library.gif)
