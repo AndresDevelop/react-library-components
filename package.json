@@ -1,5 +1,5 @@
 {
-  "name": "@react-components/ui",
+  "name": "@andresdevelop/ui-components",
   "version": "1.0.0",
   "description": "React components library",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AndresDevelop/react-components-guide.git"
+    "url": "git+https://github.com/AndresDevelop/react-library-components"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -27,9 +27,9 @@
   "author": "Yebrail Andres Pacheco Jaime <yebrail_andrs@hotmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AndresDevelop/react-components-guide/issues"
+    "url": "https://github.com/AndresDevelop/react-library-components"
   },
-  "homepage": "https://github.com/AndresDevelop/react-components-guide#readme",
+  "homepage": "https://github.com/AndresDevelop/react-library-components",
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "react": "^16.13.1",

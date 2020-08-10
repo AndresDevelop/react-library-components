@@ -49,6 +49,6 @@ module.exports = {
     },
     getComponentPathLine(componentPath) {
         const name = path.basename(componentPath, '.tsx');
-        return `import { ${name} } from '@react-components/ui';`;
+        return `import { ${name} } from '@andresdevelop/ui-components';`;
     },
 };
