@@ -11,6 +11,6 @@ $ npm login --registry=https://npm.pkg.github.com
 ```
 
 ```
-npm run i (install dependecies)
+npm  i (install dependecies)
 npm run start (start library)
 ```
